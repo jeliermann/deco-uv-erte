@@ -1,0 +1,6 @@
+[project]
+name = "deco-uv-erte"
+version = "0.1.0"
+description = "Un super projet de découverte UV"
+readme = "README.md"
+dependencies = []
