@@ -4,3 +4,13 @@ version = "0.1.0"
 description = "Un super projet de découverte UV"
 readme = "README.md"
 dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "lambda/ingestion",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]

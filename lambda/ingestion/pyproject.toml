@@ -1,0 +1,12 @@
+[project]
+name = "ingestion"
+version = "0.1.0"
+description = "Lambda d'ingestion pour notre super projet découverte"
+requires-python = ">=3.13"
+dependencies = [
+    "requests>=2.32.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
