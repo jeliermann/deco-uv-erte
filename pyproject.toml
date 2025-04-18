@@ -9,6 +9,7 @@ dependencies = []
 members = [
     "lambda/ingestion",
     "glue/data-loading",
+    "transformations_elt",
 ]
 
 [dependency-groups]

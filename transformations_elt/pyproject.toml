@@ -1,0 +1,8 @@
+[project]
+name = "transformations-elt"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "dbt-core>=1.9.4",
+    "dbt-duckdb>=1.9.2",
+]
