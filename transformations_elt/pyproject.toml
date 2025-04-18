@@ -6,3 +6,9 @@ dependencies = [
     "dbt-core>=1.9.4",
     "dbt-duckdb>=1.9.2",
 ]
+
+[dependency-groups]
+dev = [
+    "pip>=25.0.1",
+    "shandy-sqlfmt[jinjafmt]>=0.26.0",
+]
