@@ -1,0 +1,17 @@
+[sqlfluff]
+templater = dbt
+dialect = duckdb
+exclude_rules = layout.indent, layout.cte_bracket, layout.select_targets, layout.spacing, layout.keyword_newline
+# set max_line_length to whatever you set in sqlfmt
+max_line_length = 88
+
+[sqlfluff:rules]
+capitalisation_policy = lower
+extended_capitalisation_policy = lower
+
+[sqlfluff:rules:convention.terminator]
+multiline_newline = True
+
+[sqlfluff:templater:dbt]
+project_dir = ./transformations_elt/
+profiles_dir = ./transformations_elt/
